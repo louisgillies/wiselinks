@@ -10,7 +10,7 @@ GIT
 PATH
   remote: .
   specs:
-    wiselinks-artirix (1.2.2)
+    wiselinks (1.2.2)
 
 GEM
   remote: https://rubygems.org/
@@ -195,4 +195,4 @@ DEPENDENCIES
   simplecov
   sqlite3
   webmock (~> 1.9.0)
-  wiselinks-artirix!
+  wiselinks!

@@ -5,7 +5,7 @@ module Wiselinks
     MAJOR = 1
     MINOR = 2
     PATCH = 2
-    BUILD = nil
+    BUILD = 'artirix01'
 
     STRING = [MAJOR, MINOR, PATCH, BUILD].compact.join('.')
   end

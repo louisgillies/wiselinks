@@ -1,7 +1,16 @@
+GIT
+  remote: git@gitlab.artirix.com:artirix/artirix_gem_release.git
+  revision: 25f337f5fb531448f6e14e11a41b060c83018a61
+  specs:
+    artirix_gem_release (0.0.15)
+      activesupport
+      gem-release
+      hipchat
+
 PATH
   remote: .
   specs:
-    wiselinks (1.2.2)
+    wiselinks-artirix (1.2.2)
 
 GEM
   remote: https://rubygems.org/
@@ -69,7 +78,13 @@ GEM
       activesupport (>= 3.0.0)
     faker (1.2.0)
       i18n (~> 0.5)
+    gem-release (0.7.3)
     hike (1.2.3)
+    hipchat (1.1.0)
+      httparty
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.9)
     journey (1.0.4)
     json (1.8.1)
@@ -79,6 +94,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.5.2)
     multi_json (1.8.4)
+    multi_xml (0.5.5)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     polyglot (0.3.3)
@@ -162,6 +178,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  artirix_gem_release!
   bundler
   capybara
   closure-compiler
@@ -178,4 +195,4 @@ DEPENDENCIES
   simplecov
   sqlite3
   webmock (~> 1.9.0)
-  wiselinks!
+  wiselinks-artirix!

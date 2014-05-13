@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wiselinks/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'wiselinks'
+  gem.name          = 'wiselinks-artirix'
   gem.version       = Wiselinks::Version::STRING
   gem.authors       = ['Igor Alexandrov', 'Alexey Solilin', 'Julia Egorova', 'Alexandr Borisov']
   gem.email         = 'igor.alexandrov@gmail.com'

@@ -98,7 +98,7 @@ EOS
     end
 
     def specification
-      @specification ||= Gem.loaded_specs['wiselinks']
+      @specification ||= Gem.loaded_specs['wiselinks-artirix']
     end
   end
 end

@@ -35,6 +35,10 @@ GEM
       multi_json (~> 1.0)
     addressable (2.3.5)
     arel (3.0.3)
+    artirix_gem_release (0.0.15)
+      activesupport
+      gem-release
+      hipchat
     builder (3.0.4)
     capybara (2.2.1)
       mime-types (>= 1.16)
@@ -69,7 +73,13 @@ GEM
       activesupport (>= 3.0.0)
     faker (1.2.0)
       i18n (~> 0.5)
+    gem-release (0.7.1)
     hike (1.2.3)
+    hipchat (1.1.0)
+      httparty
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.9)
     journey (1.0.4)
     json (1.8.1)
@@ -79,6 +89,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.5.2)
     multi_json (1.8.4)
+    multi_xml (0.5.5)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     polyglot (0.3.3)
@@ -162,6 +173,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  artirix_gem_release
   bundler
   capybara
   closure-compiler
